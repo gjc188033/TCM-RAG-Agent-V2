@@ -1,0 +1,12 @@
+{
+    "model_name_or_path": "naver/splade-cocondenser-selfdistil",
+    "max_length": 128,
+    "shared_weights": true,
+    "splade_doc": false,
+    "model_q": null,
+    "dense_pooling": "cls",
+    "dense": false,
+    "adapter_name": null,
+    "adapter_config": null,
+    "load_adapter": null
+}

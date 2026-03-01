@@ -1,0 +1,53 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# ========== 模型权重文件（太大，不能上传 GitHub） ==========
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# ========== 敏感配置（含 API Key，禁止上传） ==========
+IntelligentAgent/BaseOne/utils/config.py
+
+# ========== Node.js ==========
+node_modules/
+AgentFace/dist/
+AgentFace/dist-ssr/
+*.local
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# ========== 项目特有 ==========
+.promptx/
+*.bak
+IntelligentAgent/data/
+
+# ========== 日志 ==========
+logs/
+*.log
+npm-debug.log*

@@ -1,0 +1,9 @@
+{
+    "training_data_type": "pkl_dict",
+    "training_data_path": "/gfs-ssd/project/neuralsearch/new_scores/ensemble_scores_5050_rescored.pkl.gz",
+    "document_dir": "/nfs/data/neuralsearch/msmarco/documents/raw.tsv",
+    "query_dir": "/nfs/data/neuralsearch/msmarco/training_queries/raw.tsv",
+    "qrels_path": "/nfs/data/neuralsearch/msmarco/training_queries/qrels.json",
+    "n_negatives": 8,
+    "n_queries": -1
+}
