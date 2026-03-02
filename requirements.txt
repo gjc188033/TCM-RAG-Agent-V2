@@ -4,7 +4,6 @@ langchain
 langchain-openai
 langchain-community
 langgraph
-pymilvus
 elasticsearch
 redis
 transformers
@@ -12,3 +11,4 @@ torch
 numpy
 tqdm
 pydantic
+psycopg2-binary
